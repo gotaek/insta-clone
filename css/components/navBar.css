@@ -1,0 +1,50 @@
+.navBar {
+  border-bottom: solid 1.2px var(--border);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+}
+.navBar__centerBar {
+  width: 975px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: center;
+}
+.navBar__column {
+  width: 33%;
+}
+.navBar__column form {
+  text-align: center;
+}
+.navBar__column input {
+  height: 22px;
+  width: 200px;
+  border-radius: 2px;
+  background-color: var(--basic);
+  border: solid 1px var(--border);
+}
+
+.navBar__column input::placeholder {
+  text-align: center;
+}
+
+.navBar__logo img {
+  width: 180px;
+}
+.navBar__icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navBar__btn i {
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.navBar__btn img {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
