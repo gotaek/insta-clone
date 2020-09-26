@@ -1,0 +1,147 @@
+.home {
+  padding-top: 55px;
+  height: 500vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--basic);
+}
+.home__center {
+  width: var(--basic-width);
+  display: flex;
+  padding-top: 30px;
+}
+.home__column:first-child {
+  background-color: var(--basic);
+  width: 625px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+/*storycontainer*/
+.home__storyContainer {
+  background-color: var(--white);
+  border: solid 1px var(--border);
+  height: 100px;
+  border-radius: 2px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0px 17px;
+  position: relative;
+}
+
+.home__storyUser {
+  padding: 0 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__storyUser span {
+  font-size: 10px;
+  font-weight: 300;
+}
+.home__storyContainer i {
+  position: absolute;
+  right: 13px;
+  color: var(--border);
+}
+
+/*feedContainer*/
+.home__feedContainer {
+  background-color: var(--white);
+  border: solid 1px var(--border);
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 2px;
+  margin-bottom: 50px;
+}
+.home__feedInfo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.home__feedId {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  justify-content: space-between;
+  width: 100%;
+}
+.home__feedId span {
+  font-weight: 600;
+  font-size: 14px;
+}
+.home__feedImg {
+  width: 610px;
+  height: 610px;
+}
+.home__feedCommunication {
+  padding: 0px 20px;
+  margin-top: 3px;
+}
+.home__feedIcons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+.home__feedIcons i {
+  padding: 6px;
+}
+.home__feedIcons i:first-child {
+  transition: color 0.3s ease-in-out;
+}
+.home__feedIcons i:first-child:hover {
+  color: #ff6b81;
+}
+.home__likecnt {
+  font-weight: 600;
+  width: 100%;
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.home__explainId {
+  font-weight: 600;
+  padding-left: 5px;
+}
+.home__explainComment {
+  font-weight: 300;
+}
+.home__comment {
+  position: absolute;
+  bottom: 0;
+  width: 610px;
+  border-top: 1px solid var(--border);
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+}
+.home__comment input {
+  width: 90%;
+  border: none;
+  font-weight: 600;
+}
+.home__comment input::placeholder {
+  color: var(--border);
+  font-weight: 300;
+}
+.home__comment button {
+  margin-left: 5px;
+  font-weight: 600;
+  border: none;
+  background: 0;
+  color: var(--follow);
+  opacity: 0.5;
+}
+.home__column:last-child {
+  background-color: var(--basic);
+  width: 350px;
+  box-sizing: border-box;
+}

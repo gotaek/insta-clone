@@ -1,8 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
 @import "reset.css";
 @import "variables.css";
 /*components*/
-@import "components/navBar.css"; /*screens*/
-
+@import "components/navBar.css";
+@import "components/user-circle.css";
+/*screens*/
+@import "screens/home.css";
 input:focus {
   outline: none;
+}
+button:focus {
+  outline: none;
+}
+body {
+  font-family: "Open Sans", sans-serif;
 }

@@ -1,0 +1,30 @@
+.user-circleM {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+  width: 63px;
+  border-radius: 50%;
+  border: 2.5px solid #fd79a8;
+  margin-bottom: 4px;
+}
+.user-circleM img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.user-circleS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid #fd79a8;
+  margin-bottom: 4px;
+}
+.user-circleS img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
