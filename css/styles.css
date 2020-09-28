@@ -4,8 +4,10 @@
 /*components*/
 @import "components/navBar.css";
 @import "components/user-circle.css";
+@import "components/profile.css";
 /*screens*/
 @import "screens/home.css";
+@import "screens/dm.css";
 input:focus {
   outline: none;
 }
@@ -14,4 +16,8 @@ button:focus {
 }
 body {
   font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
 }

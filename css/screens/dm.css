@@ -1,0 +1,22 @@
+.dm {
+  padding-top: 55px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--basic);
+}
+.dm__center {
+  width: var(--basic-width);
+  display: flex;
+  margin: 30px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background-color: var(--white);
+}
+.dm__column:first-child {
+  width: 40%;
+  border-right: 1px solid var(--border);
+}
+.dm__column:last-child {
+  width: 60%;
+}
