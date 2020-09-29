@@ -17,6 +17,73 @@
   width: 40%;
   border-right: 1px solid var(--border);
 }
+.dm__directBar {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  border-bottom: solid 1px var(--border);
+}
+.dm__directBarCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px 20px;
+  position: relative;
+}
+.dm__directBarText {
+  text-align: center;
+  font-weight: 600;
+}
+.dm__directBarButton {
+  background: 0;
+  border: none;
+  position: absolute;
+  right: 0;
+}
+.dm__profileContainer {
+  padding: 8px 0px;
+}
+.dm__profile__subtitle {
+  font-size: 13px;
+  color: #95a5a6;
+}
 .dm__column:last-child {
   width: 60%;
+}
+.dm__newMessageContainer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.dm__newMessageIcon {
+  border-radius: 50%;
+  height: 96px;
+  width: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+}
+.dm__newMessageTitle {
+  font-size: 22.5px;
+  margin-top: 30px;
+}
+.dm__newMessageSubtitle {
+  font-size: 15px;
+  margin-top: 20px;
+  color: var(--gray);
+}
+.dm__newMessageContainer button {
+  color: white;
+  background-color: var(--follow);
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 5px 9px;
+  border: 1px solid var(--follow);
 }

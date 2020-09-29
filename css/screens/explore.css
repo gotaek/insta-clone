@@ -1,0 +1,26 @@
+.explore {
+  padding-top: 55px;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--basic);
+}
+.explore__center {
+  width: var(--basic-width);
+  padding: 30px 20px;
+  border-radius: 3px;
+}
+.explore__wrapper {
+  display: grid;
+  grid-template-columns: 292px 292px 292px;
+  grid-template-rows: 292px 292px 292px;
+  grid-row-gap: 28px;
+  grid-column-gap: 28px;
+}
+.explore__wrapper img {
+  width: 292px;
+  height: 292px;
+}
+.explore__pictue {
+  position: relative;
+}

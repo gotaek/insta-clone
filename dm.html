@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>instagram</title>
+    <title>instagram-dm</title>
     <link rel="stylesheet" href="css\styles.css" />
   </head>
   <body>
@@ -27,16 +27,16 @@
               </a>
             </div>
             <div class="navBar__btn">
-              <i class="fas fa-paper-plane"></i>
+              <a href="dm.html"><i class="fas fa-paper-plane fa-lg"></i></a>
             </div>
             <div class="navBar__btn">
-              <i class="far fa-compass fa-lg"></i>
+              <a href="explore.html"><i class="far fa-compass fa-lg"></i></a>
             </div>
             <div class="navBar__btn">
-              <i class="far fa-heart fa-lg"></i>
+              <a href="heart.html"><i class="far fa-heart fa-lg"></i></a>
             </div>
             <div class="navBar__btn">
-              <img src="images\me.jpg" />
+              <a href="myprofile.html"><img src="images\me.jpg" /></a>
             </div>
           </div>
         </div>
@@ -44,8 +44,66 @@
     </div>
     <div class="dm">
       <div class="dm__center">
-        <div class="dm__column"></div>
-        <div class="dm__column"></div>
+        <div class="dm__column">
+          <div class="dm__directBar">
+            <div class="dm__directBarCenter">
+              <div class="dm__directBarText">Direct</div>
+              <button class="dm__directBarButton">
+                <i class="far fa-comment-alt fa-2x"></i>
+              </button>
+            </div>
+          </div>
+          <div class="dm__profileContainer">
+            <div class="profile">
+              <div class="profile__column">
+                <img class="user-circleM-oi" src="images/people13.jpg" />
+                <div class="profile__text">
+                  <div class="profile__title">handsome</div>
+                  <div class="dm__profile__subtitle">
+                    <span>message</span>
+                    <span> 4일</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="profile">
+              <div class="profile__column">
+                <img class="user-circleM-oi" src="images/people14.jpg" />
+                <div class="profile__text">
+                  <div class="profile__title">christian</div>
+                  <div class="dm__profile__subtitle">
+                    <span>god bless you</span>
+                    <span> 1주</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="profile">
+              <div class="profile__column">
+                <img class="user-circleM-oi" src="images/people15.jpg" />
+                <div class="profile__text">
+                  <div class="profile__title">grand_fa</div>
+                  <div class="dm__profile__subtitle">
+                    <span>please check my account</span>
+                    <span> 2주</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dm__column">
+          <div class="dm__newMessageContainer">
+            <div class="dm__newMessageIcon">
+              <i class="far fa-paper-plane fa-3x"></i>
+            </div>
+            <span class="dm__newMessageTitle">내 메시지</span>
+            <span class="dm__newMessageSubtitle"
+              >친구나 그룹에 비공개 사진과 메세지를 보내보세요.</span
+            >
+            <button>메시지 보내기</button>
+          </div>
+        </div>
       </div>
     </div>
     <script

@@ -147,6 +147,7 @@
   box-sizing: border-box;
   left: 920px;
   top: 85px;
+  cursor: pointer;
 }
 .home__myProfile {
   display: flex;
