@@ -145,8 +145,7 @@
   width: 350px;
   position: fixed;
   box-sizing: border-box;
-  left: 920px;
-  top: 85px;
+  margin-left: 650px;
   cursor: pointer;
 }
 .home__myProfile {
