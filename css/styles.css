@@ -9,7 +9,6 @@
 @import "screens/home.css";
 @import "screens/dm.css";
 @import "screens/explore.css";
-@import "screens/myprofile.css";
 input:focus {
   outline: none;
 }
